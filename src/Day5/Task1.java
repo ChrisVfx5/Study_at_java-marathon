@@ -8,6 +8,7 @@ public class Task1 {
         System.out.println("Информация о моделе:\n" + car1.getInfo());
 
 
+
     }
 }
 

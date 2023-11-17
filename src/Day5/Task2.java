@@ -8,6 +8,7 @@ public class Task2 {
         System.out.println("Motorbike information:\n" + getInfo);
 
 
+
     }
 }
 
