@@ -37,6 +37,7 @@ public class Teacher {
         }
         System.out.println(name + " оценил студента с именем: " + student + " по предмету " + subject + " на оценку: " + result);
 
+
     }
 
 

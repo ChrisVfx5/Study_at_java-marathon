@@ -9,8 +9,9 @@ public class Main {
 
         Student student = new Student("Габриель Григорьевич");
         student.infoAboutStuden();
-        
+
         teacher.evaluate(student);
+
 
 
 
