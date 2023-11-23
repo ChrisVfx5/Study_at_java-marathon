@@ -19,3 +19,4 @@ public class Student extends Human{
         System.out.println("Этот студент с именем: " + getName());
     }
 }
+

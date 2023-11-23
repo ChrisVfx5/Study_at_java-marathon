@@ -27,3 +27,4 @@ public class Rectangle extends Figure {
         return perimeter;
     }
 }
+
