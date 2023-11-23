@@ -7,18 +7,22 @@ public class Student {
 
 
     public Student(String name){
+
         this.name = name;
     }
 
     protected void setName(String name){
+
         this.name = name;
     }
 
     protected String getName(){
+
         return name;
     }
 
     protected void infoAboutStuden(){
+
         System.out.println("Имя студента: " + name);
     }
 

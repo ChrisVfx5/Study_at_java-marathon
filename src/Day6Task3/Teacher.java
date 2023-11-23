@@ -18,7 +18,7 @@ public class Teacher {
 
 
     protected void evaluate(Student student){
-        student = new Student(student.getName().toString()); // не работает. не знаю как передать имя студента
+
         Random rand = new Random();
         int grade = rand.nextInt(2,5);
         String result = "";
@@ -34,8 +34,10 @@ public class Teacher {
                 break;
             case 2:
                 result = "неудовлетворительно";
+            default:
+                break;
         }
-        System.out.println(name + " оценил студента с именем: " + student + " по предмету " + subject + " на оценку: " + result);
+        System.out.println(name + " оценил студента с именем " + student.getName() + " по предмету " + subject + " на оценку: " + result);
 
 
     }

@@ -27,7 +27,7 @@ private int fuel;
     }
 
     // Геттер
-    protected int getFuel(){
+    public int getFuel(){
         return fuel;
     }
 
